@@ -1,0 +1,17 @@
+{
+  "name": "reminder-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram bot that stores any message and sends it back at a chosen time",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
